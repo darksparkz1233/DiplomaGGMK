@@ -1,0 +1,28 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.4.0",
+    "pinia": "^2.0.28",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6",
+    "vue3-burger-menu": "^1.1.1",
+    "vue3-carousel": "^0.2.9"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.13",
+    "daisyui": "^2.50.0",
+    "json-server": "^0.17.1",
+    "oh-vue-icons": "^1.0.0-rc3",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.0"
+  }
+}

@@ -1,0 +1,306 @@
+{
+    "otherFurn": [
+        {
+            "id": 1,
+            "name": "Двери перегородные",
+            "material": "МДФ крашеный резной",
+            "desc": "typicode",
+            "img": "/src/assets/OtherFurn/1.png",
+            "system": "Лофт"
+        },
+        {
+            "id": 2,
+            "name": "Мебель для гостинной",
+            "material": "МДФ Феникс",
+            "tabletop": "36 мм. Феникс",
+            "guides": "Modern Slide",
+            "img": "/src/assets/OtherFurn/2.png"
+        },
+        {
+            "id": 3,
+            "name": "json-server",
+            "desc": "typicode",
+            "img": "/src/assets/OtherFurn/3.png"
+        },
+        {
+            "id": 4,
+            "name": "json-server",
+            "desc": "typicode",
+            "img": "/src/assets/OtherFurn/4.png"
+        },
+        {
+            "id": 5,
+            "name": "json-server",
+            "desc": "typicode",
+            "img": "/src/assets/OtherFurn/5.png"
+        },
+        {
+            "id": 6,
+            "name": "json-server",
+            "desc": "typicode",
+            "img": "/src/assets/OtherFurn/6.png"
+        },
+        {
+            "id": 7,
+            "name": "json-server",
+            "desc": "typicode",
+            "img": "/src/assets/OtherFurn/7.png"
+        },
+        {
+            "id": 8,
+            "name": "json-server",
+            "desc": "typicode",
+            "img": "/src/assets/OtherFurn/8.png"
+        }
+    ],
+    "closets": [
+        {
+            "id": 1,
+            "name": "Шкаф угловой",
+            "material": "Базовый Эггер",
+            "color": "Белый",
+            "system": "Hettish Wline 770",
+            "img": "/src/assets/Closets/1.png",
+            "size" : "Н/Д"
+        },
+        {
+            "id": 2,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Closets/2.png"
+        },
+        {
+            "id": 3,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Closets/3.png"
+        },
+        {
+            "id": 4,
+            "name": "Просторный шкаф в прихожей",
+            "material": "Лдсп эггер дуб Галифакс.",
+            "color": "Бежевый песок",
+            "size": "2700*3720*550",
+            "fittings": "Акс с доводчиком.",
+            "img": "/src/assets/Closets/4.png",
+            "img2": "/src/assets/Closets/4(2).png",
+            "img3": "/src/assets/Closets/4(3).png"
+        },
+        {
+            "id": 5,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Closets/5.png"
+        },
+        {
+            "id": 6,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Closets/6.png"
+        },
+        {
+            "id": 7,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Closets/7.png"
+        },
+        {
+            "id": 8,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Closets/8.png"
+        }
+    ],
+    "kitchens": [
+        {
+            "id": 1,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Kitchen/1.png"
+        },
+        {
+            "id": 2,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Kitchen/2.png"
+        },
+        {
+            "id": 3,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Kitchen/3.png"
+        },
+        {
+            "id": 4,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Kitchen/4.png"
+        },
+        {
+            "id": 5,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Kitchen/5.png"
+        },
+        {
+            "id": 6,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Kitchen/6.png"
+        },
+        {
+            "id": 7,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Kitchen/7.png"
+        },
+        {
+            "id": 8,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/Kitchen/8.png"
+        }
+    ],
+    "lowerBoxes": [
+        {
+            "id": 1,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/LowerBoxes/1.png"
+        },
+        {
+            "id": 2,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/LowerBoxes/2.png"
+        },
+        {
+            "id": 3,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/LowerBoxes/3.png"
+        },
+        {
+            "id": 4,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/LowerBoxes/4.png"
+        },
+        {
+            "id": 5,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/LowerBoxes/5.png"
+        },
+        {
+            "id": 6,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/LowerBoxes/6.png"
+        },
+          {
+            "id": 7,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/LowerBoxes/7.png"
+        },
+        {
+            "id": 8,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/LowerBoxes/8.png"
+        },
+        {
+            "id": 9,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/LowerBoxes/9.png"
+        },
+        {
+            "id": 10,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/LowerBoxes/10.png"
+        },
+        {
+            "id": 11,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/LowerBoxes/11.png"
+        }
+    ],
+    "upperBoxes": [
+        {
+            "id": 1,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/UpperBoxes/1.png"
+        },
+        {
+            "id": 2,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/UpperBoxes/2.png"
+        },
+        {
+            "id": 3,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/UpperBoxes/3.png"
+        },
+        {
+            "id": 4,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/UpperBoxes/4.png"
+        },
+        {
+            "id": 5,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/UpperBoxes/5.png"
+        },
+        {
+            "id": 6,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/UpperBoxes/6.png"
+        },
+          {
+            "id": 7,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/UpperBoxes/7.png"
+        },
+        {
+            "id": 8,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/UpperBoxes/8.png"
+        },
+        {
+            "id": 9,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/UpperBoxes/9.png"
+        },
+        {
+            "id": 10,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/UpperBoxes/10.png"
+        },
+        {
+            "id": 11,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/UpperBoxes/11.png"
+        },
+        {
+            "id": 12,
+            "name": "some comment",
+            "desc": "some basic description",
+            "img": "/src/assets/UpperBoxes/12.png"
+        }
+    ]
+}
