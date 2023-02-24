@@ -114,15 +114,22 @@
     "kitchens": [
         {
             "id": 1,
-            "name": "some comment",
+            "name": "Кухня со стильной перегородкой",
             "desc": "some basic description",
-            "img": "/src/assets/Kitchen/1.png"
+            "img": "/src/assets/Kitchen/1.png",
+            "material": "Фасады ЛДСП эггер. Столешница и скинали кедр.",
+            "color": "Н/Д",
+            "size": "Н/Д",
+            "fittings": "Н/Д"
         },
         {
             "id": 2,
-            "name": "some comment",
+            "name": "Необыкновенной красоты кухня",
             "desc": "some basic description",
-            "img": "/src/assets/Kitchen/2.png"
+            "img": "/src/assets/Kitchen/2.png",
+            "material": "Фасад рамочный. Компакт плита.",
+            "size": "Н/Д",
+            "color":"Н/Д"
         },
         {
             "id": 3,

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex bg-white w-full justify-between items-center xs:justify-between gap-4 xs:p-10 xs:pl-5 xs:pb-5 xs:pt-6 md:pt-4 md:pb-4 md:pr-32 md:pl-32">
+    class="flex bg-white w-full justify-between items-center xs:justify-between gap-4 xs:p-10 xs:pl-5 xs:pb-14 xs:pt-6 md:pt-4 md:pb-4 md:pr-32 md:pl-32">
 
     <!-- ? burger menu -->
     <div class="flex xs:text-1xl  justify-center sm:text-2xl md:text-2xl font-bold flex-col">
@@ -19,7 +19,7 @@
         </router-link>
 
         <router-link to="/other" class="text-link hover:underline">
-          Прочяя мебель
+          Прочая мебель
         </router-link>
 
         <h1 class="text-black">
@@ -119,7 +119,7 @@ import router from '../router';
   top: 0;
   left: 0;
   background-color: white;
-  border: black 1px solid;
+  /* border: black 1px solid; */
   /* Black*/
   overflow-x: hidden;
   /* Disable horizontal scroll */

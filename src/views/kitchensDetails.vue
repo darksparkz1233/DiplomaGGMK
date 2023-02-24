@@ -41,21 +41,14 @@
         О продкуте:
       </h1>
       <p class="text-md ">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus beatae optio, tenetur saepe
-        nihil officia repellat autem nam, aut sequi facere consectetur incidunt obcaecati at quis natus
-        doloremque delectus? Odio nemo odit quae sequi quidem, velit ducimus illo aliquam reprehenderit natus
-        iusto et laborum, dolore eum consequuntur debitis dolor eaque harum voluptatum cupiditate assumenda
-        totam optio incidunt exercitationem. Exercitationem fugiat recusandae modi magnam repellendus accusamus
-        consectetur similique. Fugiat id doloremque officiis expedita, quos iste. Tenetur, ratione rem ipsam
-        facilis excepturi ipsa alias ab tempore cupiditate velit nostrum quidem, impedit provident.
+        Размеры: {{ queryProduct.size }} <br>
+        Материал: {{ queryProduct.material }} <br>
+        Цвет: {{ queryProduct.color }} <br>
       </p>
       <!-- ? product order & add to cart btns -->
       <div class="flex gap-5">
         <button @click="openModal" class="text-white p-4 rounded-2xl bg-link">
           Заказать!
-        </button>
-        <button class="text-link border p-4 rounded-2xl bg-white">
-          В Корзину!
         </button>
       </div>
     </div>

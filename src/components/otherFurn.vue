@@ -13,7 +13,7 @@
                             <h6 class="card-title">{{ product.name }}</h6>
                             <!-- <p>If a dog chews shoes whose shoes does he choose?</p> -->
                             <div class="card-actions justify-end">
-                                <button class="btn bg-link">Осмотреть</button>
+                                <button class="btn bg-link">Подробнее</button>
                             </div>
                         </div>
                     </div>

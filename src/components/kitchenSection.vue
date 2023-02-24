@@ -7,14 +7,12 @@
         <template #product-grid>
             <ul v-for="product in products" :key="product">
                 <router-link :to="`/kitchens/${product.id}`">
-                    <!-- <img :src="product.img" class="w-full h-full cursor-pointer transition ease-in-out hover:-translate-y-7"> -->
                     <div class="card w-45 bg-base-100 shadow-xl">
                         <figure><img :src="product.img" alt="Shoes" /></figure>
                         <div class="card-body">
-                            <h2 class="card-title">Кухня</h2>
-                            <!-- <p>If a dog chews shoes whose shoes does he choose?</p> -->
+                            <h2 class="card-title">{{ product.name }}</h2>
                             <div class="card-actions justify-end">
-                                <button class="btn bg-link">Осмотреть</button>
+                                <button class="btn bg-link">Подробнее</button>
                             </div>
                         </div>
                     </div>
@@ -31,41 +29,41 @@ import sectionComponentVue from './sectionComponent.vue';
 const products = [
     {
         id: 1,
-        name: 'Название мебasdasdели',
+        name: 'Кухня со стильной перегородкой',
         desc: 'Какое-то описание',
         img: 'src/assets/Kitchen/1.png'
     },
     {
         id: 2,
-        name: 'Назвasdadadsadsadasdание мебели',
+        name: 'Необыкновенной красоты кухня',
         desc: 'Какое-то описание',
         img: 'src/assets/Kitchen/2.png'
 
     },
-    {
-        id: 3,
-        name: 'Название мебели',
-        desc: 'Какое-то описание',
-        img: 'src/assets/Kitchen/3.png'
+    // {
+    //     id: 3,
+    //     name: 'Название мебели',
+    //     desc: 'Какое-то описание',
+    //     img: 'src/assets/Kitchen/3.png'
 
-    },
+    // },
     {
         id: 4,
-        name: 'Название мебели',
+        name: 'Стильная, брутальная кухня',
         desc: 'Какое-то описание',
         img: 'src/assets/Kitchen/4.png'
 
     },
     {
         id: 5,
-        name: 'Название мебели',
+        name: 'Белая, современная кухня',
         desc: 'Какое-то описание',
         img: 'src/assets/Kitchen/5.png'
 
     },
     {
         id: 6,
-        name: 'Название мебели',
+        name: 'Розовая, стильная кухня',
         desc: 'Какое-то описание',
         img: 'src/assets/Kitchen/6.png'
 

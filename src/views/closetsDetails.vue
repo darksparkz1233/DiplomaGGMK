@@ -49,12 +49,9 @@
         Цвет: {{ queryProduct.color }} <br>
       </p>
       <!-- ? product order & add to cart btns -->
-      <div class="flex gap-5">
+      <div class="flex">
         <button @click="openModal" class="text-white p-4 rounded-2xl bg-link">
           Заказать!
-        </button>
-        <button class="text-link border p-4 rounded-2xl bg-white">
-          В Корзину!
         </button>
       </div>
     </div>

@@ -16,7 +16,7 @@
                                 <div class="card-body">
                                     <h2 class="card-title">Верхние ящик</h2>
                                     <div class="card-actions justify-end">
-                                        <button class="btn bg-link">Осмотреть</button>
+                                        <button class="btn bg-link">Подробнее</button>
                                     </div>
                                 </div>
                             </div>
