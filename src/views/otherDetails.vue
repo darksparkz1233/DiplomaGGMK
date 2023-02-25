@@ -4,37 +4,46 @@
         <!-- ? product image & title -->
         <div class="flex flex-col justify-center items-center pt-20 ">
             <img class="" :src="queryProduct.img" alt="">
-            <h1 class="text-3xl">
+            <h1 class="p-5 text-3xl">
                 {{ queryProduct.name }}
             </h1>
         </div>
 
         <!-- ? modal window -->
-        <div v-if="isOpen" class="text-2xl  fixed z-50 top-0 left-0 h-full w-full p-10 bg-white ">
-            <button @click="closeModal">
-                X
-            </button>
-            <div class=" flex flex-col gap-16 justify-center items-center ">
-                <h1>Укажите свои контактные данные:</h1>
+        <div v-if="isOpen" class="text-2xl overflow-scroll  fixed z-50 top-0 left-0 h-full w-full p-10 bg-white ">
+      <button @click="closeModal">
+        X
+      </button>
+      <div class=" flex flex-col gap-16 justify-center items-center ">
+        <h1>Укажите свои контактные данные:</h1>
 
-                <div class="flex flex-col gap-4 justify-center items-center">
-                    <label for="">Имя:</label>
-                    <input class="bg-input h-10 w-96 rounded-xl p-2" type="text">
+        <div class="flex flex-col gap-4 justify-center items-center">
+          <label for="">Имя:</label>
+          <input type="text" v-model="state.firstName" class="bg-input h-10 w-96 rounded-xl p-2">
+          <span class="text-sm text-link" v-if="v$.firstName.$error">
+            {{ v$.firstName.$errors[0].$message }}
+          </span>
 
-                    <label for="">Телефон:</label>
-                    <input class="bg-input h-10 w-96 rounded-xl p-2" type="phone">
+          <label for="">Телефон:</label>
+          <input type="tel" v-model="state.phone" class="bg-input h-10 w-96 rounded-xl p-2">
+          <span class="text-sm text-link" v-if="v$.phone.$error">
+            {{ v$.phone.$errors[0].$message }}
+          </span>
 
-                    <label for="">Email:</label>
-                    <input class="bg-input h-10 w-96 rounded-xl p-2" type="text">
-                </div>
-                <div>
-                    <button class="text-white text-base p-4 rounded-2xl bg-link">
-                        Отправить!
-                    </button>
-                </div>
-            </div>
-            <!-- ? send form data btn -->
+          <label for="">Email:</label>
+          <input v-model="state.contact.email" class="bg-input h-10 w-96 rounded-xl p-2" type="text">
+          <span class="text-sm text-link" v-if="v$.contact.email.$error">
+            {{ v$.contact.email.$errors[0].$message }}
+          </span>
         </div>
+        <div>
+          <button @click="submitForm()" class="text-white text-base p-4 rounded-2xl bg-link">
+            Отправить!
+          </button>
+        </div>
+      </div>
+      <!-- ? send form data btn -->
+    </div>
 
         <!-- ? product description -->
         <div class="flex w-full xl:break-words flex-col justify-center gap-6 xs:p-10">
@@ -58,8 +67,37 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+
+import { ref, onMounted, reactive, computed } from 'vue'
 import { useRoute } from 'vue-router';
+import { useVuelidate } from '@vuelidate/core'
+import { required, email, maxLength, sameAs } from '@vuelidate/validators'
+
+const state = reactive({
+  firstName: '',
+  phone: '',
+  contact: {
+    email: ''
+  }
+})
+const rules = computed(() => {
+  return {
+    firstName: { required, maxLength: maxLength(13) },
+    phone: { required },
+    contact: {
+      email: { required, email }
+    }
+  }
+})
+function submitForm() {
+  this.v$.$validate()
+  if (!this.v$.$error) {
+    alert("Отправка успешно завершена!")
+  }
+  console.log(this.v$);
+}
+
+const v$ = useVuelidate(rules, state)
 
 const queryProduct = ref({})
 const isLoading = ref(true)

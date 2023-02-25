@@ -43,7 +43,7 @@ const products = [
     },
     {
         id: 3,
-        name: 'Название мебели',
+        name: 'Стенка Домино',
         desc: 'Какое-то описание',
         img: 'src/assets/OtherFurn/3.png'
 
@@ -57,7 +57,7 @@ const products = [
     },
     {
         id: 5,
-        name: 'Название мебели',
+        name: 'Стенка Брауни',
         desc: 'Какое-то описание',
         img: 'src/assets/OtherFurn/5.png'
 

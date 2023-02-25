@@ -6,7 +6,7 @@
       <img class="w-96" :src="queryProduct.img" alt="">
 
 
-      <h1 class="text-3xl">
+      <h1 class="p-5 text-3xl">
         {{ queryProduct.name }}
       </h1>
     </div>
@@ -43,12 +43,6 @@
             Отправить!
           </button>
         </div>
-        <!-- <div :class="{ error: v$.$errors.length }">
-          <div class="input-errors" v-for="error of v$.$errors" :key="error.$uid">
-            <div class="error-msg">{{ error.$message }}</div>
-          </div>
-        </div> -->
-
       </div>
       <!-- ? send form data btn -->
     </div>
@@ -76,10 +70,8 @@
 <script setup>
 import { ref, onMounted, reactive, computed } from 'vue'
 import { useRoute } from 'vue-router';
-
 import { useVuelidate } from '@vuelidate/core'
 import { required, email, maxLength, sameAs } from '@vuelidate/validators'
-
 const state = reactive({
   firstName: '',
   phone: '',
@@ -87,7 +79,6 @@ const state = reactive({
     email: ''
   }
 })
-
 const rules = computed(() => {
   return {
     firstName: { required, maxLength: maxLength(13) },
@@ -97,7 +88,6 @@ const rules = computed(() => {
     }
   }
 })
-
 function submitForm() {
   this.v$.$validate()
   if (!this.v$.$error) {
@@ -110,19 +100,14 @@ const v$ = useVuelidate(rules, state)
 const queryProduct = ref({})
 const isLoading = ref(true)
 const route = useRoute()
-
 // TODO modal window:
 let isOpen = ref(false)
-
 let openModal = () => {
   isOpen.value = !isOpen.value
 }
-
 let closeModal = () => {
   isOpen.value = false
 }
-
-
 onMounted(async () => {
   const result = await fetch(`http://localhost:3000/closets/${route.params.id}`)
   const response = await result.json()

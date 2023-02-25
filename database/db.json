@@ -2,11 +2,13 @@
     "otherFurn": [
         {
             "id": 1,
+            "img": "/src/assets/OtherFurn/1.png",
+            "desc": "typicode",
             "name": "Двери перегородные",
             "material": "МДФ крашеный резной",
-            "desc": "typicode",
-            "img": "/src/assets/OtherFurn/1.png",
-            "system": "Лофт"
+            "guides": "Modern Slide",
+            "system": "Лофт",
+            "tabletop": "36 мм. Феникс"
         },
         {
             "id": 2,
@@ -18,39 +20,63 @@
         },
         {
             "id": 3,
-            "name": "json-server",
+            "name": "Стенка Домино",
             "desc": "typicode",
-            "img": "/src/assets/OtherFurn/3.png"
+            "img": "/src/assets/OtherFurn/3.png",
+            "material": "МДФ крашеный резной",
+            "guides": "Modern Slide",
+            "system": "Лофт",
+            "tabletop": "36 мм. Феникс"
         },
         {
             "id": 4,
-            "name": "json-server",
+            "name": "Стол для вашего офиса",
             "desc": "typicode",
-            "img": "/src/assets/OtherFurn/4.png"
+            "img": "/src/assets/OtherFurn/4.png",
+            "material": "МДФ крашеный резной",
+            "guides": "Modern Slide",
+            "tabletop": "36 мм. Феникс",
+            "system": "Лофт"
         },
         {
             "id": 5,
-            "name": "json-server",
+            "name": "Стенка Брауни",
             "desc": "typicode",
-            "img": "/src/assets/OtherFurn/5.png"
+            "img": "/src/assets/OtherFurn/5.png",
+            "material": "МДФ крашеный резной",
+            "guides": "Modern Slide",
+            "system": "Лофт",
+            "tabletop": "36 мм. Феникс"
         },
         {
             "id": 6,
-            "name": "json-server",
+            "name": "Белые, настенные полки",
             "desc": "typicode",
-            "img": "/src/assets/OtherFurn/6.png"
+            "img": "/src/assets/OtherFurn/6.png",
+            "material": "МДФ крашеный резной",
+            "guides": "Modern Slide",
+            "system": "Лофт",
+            "tabletop": "36 мм. Феникс"
         },
         {
             "id": 7,
-            "name": "json-server",
+            "name": "Черно-белые, настенные полки",
             "desc": "typicode",
-            "img": "/src/assets/OtherFurn/7.png"
+            "img": "/src/assets/OtherFurn/7.png",
+            "material": "МДФ крашеный резной",
+            "guides": "Modern Slide",
+            "system": "Лофт",
+            "tabletop": "36 мм. Феникс"
         },
         {
             "id": 8,
-            "name": "json-server",
+            "name": "Удобная кровать для вашей спальни",
             "desc": "typicode",
-            "img": "/src/assets/OtherFurn/8.png"
+            "img": "/src/assets/OtherFurn/8.png",
+            "material": "МДФ крашеный резной",
+            "guides": "Modern Slide",
+            "system": "Лофт",
+            "tabletop": "36 мм. Феникс"
         }
     ],
     "closets": [
@@ -61,19 +87,27 @@
             "color": "Белый",
             "system": "Hettish Wline 770",
             "img": "/src/assets/Closets/1.png",
-            "size" : "Н/Д"
+            "size": "Н/Д"
         },
         {
             "id": 2,
-            "name": "some comment",
+            "name": "Белый, современный шкаф",
             "desc": "some basic description",
-            "img": "/src/assets/Closets/2.png"
+            "img": "/src/assets/Closets/2.png",
+            "material": "Базовый Эггер",
+            "color": "Белый",
+            "system": "Hettish Wline 770",
+            "size": "Н/Д"
         },
         {
             "id": 3,
-            "name": "some comment",
+            "name": "Широкий, черно-белый шкаф",
             "desc": "some basic description",
-            "img": "/src/assets/Closets/3.png"
+            "img": "/src/assets/Closets/3.png",
+            "material": "Базовый Эггер",
+            "color": "Черно-белый",
+            "system": "Hettish Wline 770",
+            "size": "Н/Д"
         },
         {
             "id": 4,
@@ -90,25 +124,41 @@
             "id": 5,
             "name": "some comment",
             "desc": "some basic description",
-            "img": "/src/assets/Closets/5.png"
+            "img": "/src/assets/Closets/5.png",
+            "material": "Базовый Эггер",
+            "color": "Белый",
+            "system": "Hettish Wline 770",
+            "size": "Н/Д"
         },
         {
             "id": 6,
             "name": "some comment",
             "desc": "some basic description",
-            "img": "/src/assets/Closets/6.png"
+            "img": "/src/assets/Closets/6.png",
+            "material": "Базовый Эггер",
+            "color": "Белый",
+            "system": "Hettish Wline 770",
+            "size": "Н/Д"
         },
         {
             "id": 7,
             "name": "some comment",
             "desc": "some basic description",
-            "img": "/src/assets/Closets/7.png"
+            "img": "/src/assets/Closets/7.png",
+            "material": "Базовый Эггер",
+            "color": "Белый",
+            "system": "Hettish Wline 770",
+            "size": "Н/Д"
         },
         {
             "id": 8,
             "name": "some comment",
             "desc": "some basic description",
-            "img": "/src/assets/Closets/8.png"
+            "img": "/src/assets/Closets/8.png",
+            "material": "Базовый Эггер",
+            "color": "Белый",
+            "system": "Hettish Wline 770",
+            "size": "Н/Д"
         }
     ],
     "kitchens": [
@@ -127,187 +177,349 @@
             "name": "Необыкновенной красоты кухня",
             "desc": "some basic description",
             "img": "/src/assets/Kitchen/2.png",
-            "material": "Фасад рамочный. Компакт плита.",
-            "size": "Н/Д",
-            "color":"Н/Д"
+            "material": "ЛСДП Эггер / рамочные ЛСДП Эггер",
+            "size": "Столещница компакт плита, 12мм",
+            "color": "Н/Д"
         },
         {
             "id": 3,
             "name": "some comment",
             "desc": "some basic description",
-            "img": "/src/assets/Kitchen/3.png"
+            "img": "/src/assets/Kitchen/3.png",
+            "material": "Фасады ЛДСП эггер. Столешница и скинали кедр.",
+            "color": "Н/Д",
+            "size": "Н/Д",
+            "fittings": "Н/Д"
         },
         {
             "id": 4,
             "name": "some comment",
             "desc": "some basic description",
-            "img": "/src/assets/Kitchen/4.png"
+            "img": "/src/assets/Kitchen/4.png",
+            "material": "Фасады ЛДСП эггер. Столешница и скинали кедр.",
+            "color": "Н/Д",
+            "size": "Н/Д",
+            "fittings": "Н/Д"
         },
         {
             "id": 5,
             "name": "some comment",
             "desc": "some basic description",
-            "img": "/src/assets/Kitchen/5.png"
+            "img": "/src/assets/Kitchen/5.png",
+            "material": "Фасады ЛДСП эггер. Столешница и скинали кедр.",
+            "color": "Н/Д",
+            "size": "Н/Д",
+            "fittings": "Н/Д"
         },
         {
             "id": 6,
             "name": "some comment",
             "desc": "some basic description",
-            "img": "/src/assets/Kitchen/6.png"
+            "img": "/src/assets/Kitchen/6.png",
+            "material": "Фасады ЛДСП эггер. Столешница и скинали кедр.",
+            "color": "Н/Д",
+            "size": "Н/Д",
+            "fittings": "Н/Д"
         },
         {
             "id": 7,
             "name": "some comment",
             "desc": "some basic description",
-            "img": "/src/assets/Kitchen/7.png"
+            "img": "/src/assets/Kitchen/7.png",
+            "material": "Фасады ЛДСП эггер. Столешница и скинали кедр.",
+            "color": "Н/Д",
+            "size": "Н/Д",
+            "fittings": "Н/Д"
         },
         {
             "id": 8,
             "name": "some comment",
             "desc": "some basic description",
-            "img": "/src/assets/Kitchen/8.png"
+            "img": "/src/assets/Kitchen/8.png",
+            "material": "Фасады ЛДСП эггер. Столешница и скинали кедр.",
+            "color": "Н/Д",
+            "size": "Н/Д",
+            "fittings": "Н/Д"
         }
     ],
     "lowerBoxes": [
         {
             "id": 1,
-            "name": "some comment",
+            "name": "Ящик НДШ",
             "desc": "some basic description",
-            "img": "/src/assets/LowerBoxes/1.png"
+            "img": "/src/assets/LowerBoxes/1.png",
+            "width": "600",
+            "height": "860 (со столешницей)",
+            "depth": "600 (по столешнице)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 2,
-            "name": "some comment",
+            "name": "Ящик НК (карго)",
             "desc": "some basic description",
-            "img": "/src/assets/LowerBoxes/2.png"
+            "img": "/src/assets/LowerBoxes/2.png",
+            "width": "150/200",
+            "height": "860 (со столешницей)",
+            "depth": "600 (по столешнице)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 3,
-            "name": "some comment",
+            "name": "Ящик НМ2 (под мойку)",
             "desc": "some basic description",
-            "img": "/src/assets/LowerBoxes/3.png"
+            "img": "/src/assets/LowerBoxes/3.png",
+            "width": "600/700/800",
+            "height": "860 (со столешницей)",
+            "depth": "600 (по столешнице)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 4,
-            "name": "some comment",
+            "name": "Ящик НМД (под мойку в угол)",
             "desc": "some basic description",
-            "img": "/src/assets/LowerBoxes/4.png"
+            "img": "/src/assets/LowerBoxes/4.png",
+            "width": "800/900/1000",
+            "height": "860 (со столешницей)",
+            "depth": "600 (по столешнице)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 5,
             "name": "some comment",
             "desc": "some basic description",
-            "img": "/src/assets/LowerBoxes/5.png"
+            "img": "/src/assets/LowerBoxes/5.png",
+            "width": "450/600",
+            "height": "860 (со столешницей)",
+            "depth": "600 (по столешнице)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 6,
-            "name": "some comment",
+            "name": "Ящик HP 1 (распашной, внутри полка)",
             "desc": "some basic description",
-            "img": "/src/assets/LowerBoxes/6.png"
+            "img": "/src/assets/LowerBoxes/6.png",
+            "width": "300/350/400/450/500",
+            "height": "860 (со столешницей)",
+            "depth": "600 (по столешнице)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
-          {
+        {
             "id": 7,
-            "name": "some comment",
+            "name": "Ящик HP 2 (распашной, внутри полка)",
             "desc": "some basic description",
-            "img": "/src/assets/LowerBoxes/7.png"
+            "img": "/src/assets/LowerBoxes/7.png",
+            "width": "600/700/800/900",
+            "height": "860 (со столешницей)",
+            "depth": "600 (по столешнице)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 8,
-            "name": "some comment",
+            "name": "Ящик НРШ 1 + 1",
             "desc": "some basic description",
-            "img": "/src/assets/LowerBoxes/8.png"
+            "img": "/src/assets/LowerBoxes/8.png",
+            "width": "400/450/500/550",
+            "height": "860 (со столешницей)",
+            "depth": "600 (по столешнице)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 9,
-            "name": "some comment",
+            "name": "Ящик НРШ 1 + 2",
             "desc": "some basic description",
-            "img": "/src/assets/LowerBoxes/9.png"
+            "img": "/src/assets/LowerBoxes/9.png",
+            "width": "600/650/700/750/800/850/900",
+            "height": "860 (со столешницей)",
+            "depth": "600 (по столешнице)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 10,
-            "name": "some comment",
+            "name": "Ящик НШ 1 + 1",
             "desc": "some basic description",
-            "img": "/src/assets/LowerBoxes/10.png"
+            "img": "/src/assets/LowerBoxes/10.png",
+            "width": "400/450/500/550/600/650/700/750/800/850/900",
+            "height": "860 (со столешницей)",
+            "depth": "600 (по столешнице)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 11,
-            "name": "some comment",
+            "name": "Ящик НШ 2 + 1",
             "desc": "some basic description",
-            "img": "/src/assets/LowerBoxes/11.png"
+            "img": "/src/assets/LowerBoxes/11.png",
+            "width": "400/450/500/550/600/650/700/750/800",
+            "height": "860 (со столешницей)",
+            "depth": "600 (по столешнице)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         }
     ],
     "upperBoxes": [
         {
             "id": 1,
-            "name": "some comment",
+            "name": "Ящик BHF 2",
             "desc": "some basic description",
-            "img": "/src/assets/UpperBoxes/1.png"
+            "img": "/src/assets/UpperBoxes/1.png",
+            "width": "600/650/700/750/800/850/900",
+            "height": "720/800",
+            "depth": "325 (С фасадом)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 2,
-            "name": "some comment",
+            "name": "Ящик BHFC 2",
             "desc": "some basic description",
-            "img": "/src/assets/UpperBoxes/2.png"
+            "img": "/src/assets/UpperBoxes/2.png",
+            "width": "600/700/800/900",
+            "height": "720/800",
+            "depth": "325 (С фасадом)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 3,
-            "name": "some comment",
+            "name": "Ящик ВГ 2",
             "desc": "some basic description",
-            "img": "/src/assets/UpperBoxes/3.png"
+            "img": "/src/assets/UpperBoxes/3.png",
+            "width": "600/650/700/750/800",
+            "height": "720/800",
+            "depth": "325 (С фасадом)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 4,
-            "name": "some comment",
+            "name": "Ящик ВГС 2",
             "desc": "some basic description",
-            "img": "/src/assets/UpperBoxes/4.png"
+            "img": "/src/assets/UpperBoxes/4.png",
+            "width": "600/700/800/900",
+            "height": "720/800",
+            "depth": "325 (С фасадом)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 5,
-            "name": "some comment",
+            "name": "Ящик ВМ 1",
             "desc": "some basic description",
-            "img": "/src/assets/UpperBoxes/5.png"
+            "img": "/src/assets/UpperBoxes/5.png",
+            "width": "500/550/600/650/700",
+            "height": "720/800",
+            "depth": "325 (С фасадом)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 6,
-            "name": "some comment",
+            "name": "Ящик ВОП",
             "desc": "some basic description",
-            "img": "/src/assets/UpperBoxes/6.png"
+            "img": "/src/assets/UpperBoxes/6.png",
+            "width": "150/200/250",
+            "height": "720/800",
+            "depth": "305",
+            "chasis": "ББК 18мм",
+            "facade": "Н/Д",
+            "knob": "Н/Д"
         },
-          {
+        {
             "id": 7,
-            "name": "some comment",
+            "name": "Ящик BP 1",
             "desc": "some basic description",
-            "img": "/src/assets/UpperBoxes/7.png"
+            "img": "/src/assets/UpperBoxes/7.png",
+            "width": "300/350/400/450/500/550",
+            "height": "720/800",
+            "depth": "325 (С фасадом)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 8,
-            "name": "some comment",
+            "name": "Ящик BP 2",
             "desc": "some basic description",
-            "img": "/src/assets/UpperBoxes/8.png"
+            "img": "/src/assets/UpperBoxes/8.png",
+            "width": "600/650/700/750/800",
+            "height": "720/800",
+            "depth": "325 (С фасадом)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 9,
-            "name": "some comment",
+            "name": "Ящик BPC 2",
             "desc": "some basic description",
-            "img": "/src/assets/UpperBoxes/9.png"
+            "img": "/src/assets/UpperBoxes/9.png",
+            "width": "600/700/800",
+            "height": "720/800",
+            "depth": "325 (С фасадом)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 10,
-            "name": "some comment",
+            "name": "Ящик BY 1 + 1",
             "desc": "some basic description",
-            "img": "/src/assets/UpperBoxes/10.png"
+            "img": "/src/assets/UpperBoxes/10.png",
+            "width": "600/650/700",
+            "height": "720/800",
+            "depth": "600/650/700 (С фасадом)",
+            "chasis": "ББК 18мм",
+            "facade": "ЛСДР Эггер в ПВХ22/1 группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 11,
-            "name": "some comment",
+            "name": "Пенал Д",
             "desc": "some basic description",
-            "img": "/src/assets/UpperBoxes/11.png"
+            "img": "/src/assets/UpperBoxes/11.png",
+            "width": "600",
+            "height": "2160/2240",
+            "depth": "585(С фасадом)",
+            "chasis": "ББК 18мм",
+            "facade": "Эггер группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         },
         {
             "id": 12,
-            "name": "some comment",
+            "name": "Пенал Д",
             "desc": "some basic description",
-            "img": "/src/assets/UpperBoxes/12.png"
+            "img": "/src/assets/UpperBoxes/12.png",
+            "width": "600",
+            "height": "2160/2240",
+            "depth": "585 (С фасадом)",
+            "chasis": "ББК 18мм",
+            "facade": "Эггер группа 1",
+            "knob": "Arkada чёрная / релинг / UA311 / UA340"
         }
     ]
 }
