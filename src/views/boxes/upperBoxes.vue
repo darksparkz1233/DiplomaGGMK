@@ -14,7 +14,7 @@
                             <div class="card w-45 bg-base-100 shadow-xl">
                                 <figure><img :src="box.img" alt="Shoes" /></figure>
                                 <div class="card-body">
-                                    <h2 class="card-title">Верхние ящик</h2>
+                                    <h2 class="card-title">Верхний ящик №{{ box.id }}</h2>
                                     <div class="card-actions justify-end">
                                         <button class="btn bg-link">Подробнее</button>
                                     </div>

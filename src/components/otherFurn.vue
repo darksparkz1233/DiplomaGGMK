@@ -50,7 +50,7 @@ const products = [
     },
     {
         id: 4,
-        name: 'Название мебели',
+        name: 'Стол для вашего оффиса',
         desc: 'Какое-то описание',
         img: 'src/assets/OtherFurn/4.png'
 
@@ -64,21 +64,21 @@ const products = [
     },
     {
         id: 6,
-        name: 'Название мебели',
+        name: 'Белые, настенные полки',
         desc: 'Какое-то описание',
         img: 'src/assets/OtherFurn/6.png'
 
     },
     {
         id: 7,
-        name: 'Название мебели',
+        name: 'Черно-белые, настенные полки',
         desc: 'Какое-то описание',
         img: 'src/assets/OtherFurn/7.png'
 
     },
     {
         id: 8,
-        name: 'Название мебели',
+        name: 'Удобная кровать для вашей спальни',
         desc: 'Какое-то описание',
         img: 'src/assets/OtherFurn/8.png'
 

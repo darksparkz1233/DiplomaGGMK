@@ -70,14 +70,14 @@ const products = [
     },
     {
         id: 7,
-        name: 'Название мебели',
+        name: 'Светлая, современная кухня',
         desc: 'Какое-то описание',
         img: 'src/assets/Kitchen/7.png'
 
     },
     {
         id: 8,
-        name: 'Название мебели',
+        name: 'Розовая, стильная кухня',
         desc: 'Какое-то описание',
         img: 'src/assets/Kitchen/8.png'
 

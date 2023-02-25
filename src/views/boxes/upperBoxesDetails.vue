@@ -54,9 +54,6 @@
           <button @click="openModal" class="text-white p-4 rounded-2xl bg-link">
             Заказать!
           </button>
-          <button class="text-link border p-4 rounded-2xl bg-white">
-            В Корзину!
-          </button>
         </div>
       </div>
     </div>

@@ -40,21 +40,21 @@ const products = [
     },
     {
         id: 2,
-        name: 'Назвasdadads мебели',
+        name: 'Белый, современный шкаф',
         desc: 'Какое-то описание',
         img: 'src/assets/Closets/2.png'
 
     },
     {
         id: 3,
-        name: 'Название мебели',
+        name: 'Широкий, чёрно-белый шкаф',
         desc: 'Какое-то описание',
         img: 'src/assets/Closets/3.png'
 
     },
     {
         id: 4,
-        name: 'Просторный шкаф в прихожей',
+        name: 'Бежевый, просторный шкаф',
         desc: 'Какое-то описание',
         img: 'src/assets/Closets/4.png'
 
